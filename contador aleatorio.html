@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Número aleatório</title>
+<script type="text/javascript">
+onload=function(){
+var min=1
+var max=10000
+var num=Math.round((max-min)*Math.random()+min)
+document.getElementById("numero").innerHTML=num
+}
+</script>
+
+</head>
+<body>
+<div id="numero"></div>
+</body>
+</html>
